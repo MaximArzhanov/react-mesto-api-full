@@ -60,4 +60,5 @@
 [Ссылка на проект](http://mesto.maxim.arzhanov.nomoredomains.rocks)
 
 IP-адрес сервера: 51.250.3.76
+
 Доступ к серверу: maxim_arzhanov@51.250.3.76
