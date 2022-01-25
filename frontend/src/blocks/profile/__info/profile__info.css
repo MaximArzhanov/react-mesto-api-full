@@ -1,0 +1,26 @@
+.profile__info {
+  margin: 0;
+  margin-left: 30px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+/* Помогает перенести элемент description на новую строку */
+.profile__info::after {
+  order: 1;
+  content: '';
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__info {
+    max-width: 282px;
+    margin-top: 25px;
+    margin-left: 0;
+    justify-content: center;
+  }
+}

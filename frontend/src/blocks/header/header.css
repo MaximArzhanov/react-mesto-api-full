@@ -1,0 +1,17 @@
+.header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    grid-column: 1/4;
+  }
+
+}

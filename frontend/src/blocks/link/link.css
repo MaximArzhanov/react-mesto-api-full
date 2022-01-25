@@ -1,0 +1,22 @@
+.link {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    transition: color 0.2s linear;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: rgba(255, 255, 255, .6);
+}
+
+@media screen and (max-width: 767px) {
+    .link {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

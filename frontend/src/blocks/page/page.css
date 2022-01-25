@@ -1,0 +1,16 @@
+.page {
+  margin: 0;
+  padding: 45px 0 55px 0;
+  width: 100%;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: minmax(19px, 200px) minmax(min-content, 880px) minmax(19px, 200px);
+  grid-template-rows: minmax(min-content, max-content) minmax(calc(100vh - 267px), max-content) minmax(min-content, max-content);
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    padding-top: 28px;
+    padding-bottom: 36px;
+  }
+}

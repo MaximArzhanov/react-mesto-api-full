@@ -1,0 +1,11 @@
+.popup__image_type_error {
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+    width: 120px;
+    height: 120px;
+    background: url(../../../../images/error.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+}

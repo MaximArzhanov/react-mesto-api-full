@@ -1,0 +1,18 @@
+.content_type_form {
+    padding: 0;
+    padding: 0 36px 0 36px;
+    width: 430px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background: rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 767px) {
+    .content_type_form {
+      width: 282px;
+      padding: 0;
+    }
+}
