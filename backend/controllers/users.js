@@ -91,7 +91,7 @@ module.exports.login = (req, res, next) => {
     .then((user) => {
       const tokenJWT = jwt.sign(
         { _id: user._id },
-        NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret',
+        NODE_ENV === 'production' ? JWT_SECRET : 'RsZNpZ6yARkdc66',
       );
       // res
       //   .cookie('jwt', token, {
