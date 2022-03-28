@@ -53,11 +53,9 @@
 
 - кастомизация ошибок при валидации от Celebrate
 
-- Разрешение CORS
+[Ссылка на проект (http)](http://mesto.maxim.arzhanov.nomoredomains.rocks)
 
-- Сохранение jwt-токена в Cookie
-
-[Ссылка на проект](http://mesto.maxim.arzhanov.nomoredomains.rocks)
+[Ссылка на проект (https)](https://mesto.maxim.arzhanov.nomoredomains.rocks)
 
 IP-адрес сервера: 51.250.3.76
 
