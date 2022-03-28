@@ -17,7 +17,7 @@
 
 - Склонировать проект в локальный репозиторий:
     
-    `https://github.com/MaximArzhanov/mesto-backend-frontend.git`
+    `git clone https://github.com/MaximArzhanov/mesto-backend-frontend.git`
 
 - Перейти в папку backend:
     
@@ -59,4 +59,3 @@
 
 IP-адрес сервера: 51.250.3.76
 
-Доступ к серверу: maxim_arzhanov@51.250.3.76
